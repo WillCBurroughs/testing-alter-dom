@@ -13,6 +13,21 @@ blueElement.classList.add("makeBlue")
 
 document.body.appendChild(blueElement);
 
+let divHolder = document.createElement("div")
 
+divHolder.classList.add("designDiv")
 
+let divHeader = document.createElement("h3")
+
+divHeader.innerText = "I’m in a div"
+
+divHolder.appendChild(divHeader)
+
+let divText = document.createElement("p")
+
+divText.innerText = "Me Too!"
+
+divHolder.appendChild(divText)
+
+document.body.appendChild(divHolder)
 
